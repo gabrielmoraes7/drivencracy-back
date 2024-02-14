@@ -1,6 +1,6 @@
-import { Poll } from '../models/poll';
-import { Vote } from '../models/vote';
-import { voteSchema } from '../validation/vote';
+import { Poll } from '../models/poll.js';
+import { Vote } from '../models/vote.js';
+import { voteSchema } from '../schemas/schema.vote.js';
 
 export const registerVote = async (req, res) => {
   try {

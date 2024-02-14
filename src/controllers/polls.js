@@ -1,6 +1,6 @@
 import { Poll } from '../models/poll.js';
 import { Vote } from '../models/vote.js';
-import { pollSchema } from '../models/vote.js';
+import { pollSchema } from '../schemas/schema.poll.js';
 
 export const getAllPolls = async (req, res) => {
   try {
